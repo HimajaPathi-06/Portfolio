@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI';
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRY1MWKr5W3HVvGf6IxkoHUdixKqKOpBsRWQ&s.jpg'); /* Replace with your actual image file */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 100vh;
+}
+
+
+.navbar {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-size: 22px;
+}
+
+nav ul li a:hover {
+  color: #00ffff;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  padding-left: 15%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.content {
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 .light {
+  font-weight: 300;
+}
+
+h1 .bold {
+  font-weight: 700;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 30px;
+
+}
+.btn:hover {
+  background-color: #00ffff;
+  color:black;
+   transform: scale(1.2);
+}
+.icons {
+  display: flex;
+  gap:22px;
+  margin-left:20px;
+}
+
+.icons img {
+  width: 40px;
+  height: 44px;
+  filter: invert(1);
+}
+
+.icons img:hover {
+  transform: scale(1.8);
+}
+.tech-stack {
+    position: absolute;
+    right: 350px;
+    top: 40%;
+    
+    text-align: center;
+    color: #fff;
+}
+
+.tech-stack h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ticons {
+  display: flex;
+  flex-direction:row;
+    gap: 10px;
+    align-items: center;
+    height: auto;
+}
+
+.card {
+
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 10px 15px;
+    width: 120px;
+    transition: transform 0.8s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    width: 30px;
+    height: 30px;
+}
+
+.card p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #f1f1f1;
+}
+h1:hover {
+  color: cadetblue;;
+}
+.button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+
+}
+.button:hover {
+  background-color: #00ffff;
+  color:black;
+   transform: scale(1.2);
+}
