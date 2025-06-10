@@ -96,8 +96,9 @@ p {
 }
 .icons {
   display: flex;
-  gap:22px;
+  gap:30px;
   margin-left:20px;
+  margin-top: 30px;
 }
 
 .icons img {
